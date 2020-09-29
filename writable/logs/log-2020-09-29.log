@@ -1,0 +1,347 @@
+CRITICAL - 2020-09-29 00:17:33 --> validateUser is not a valid rule.
+#0 C:\xampp\htdocs\cisunmoontechtest\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'sdd', Array, Array)
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Home.php(23): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 00:17:50 --> validateUser is not a valid rule.
+#0 C:\xampp\htdocs\cisunmoontechtest\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'sdsd', Array, Array)
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Home.php(23): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 00:26:25 --> valid_username is not a valid rule.
+#0 C:\xampp\htdocs\cisunmoontechtest\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_username')
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('username', 'username', 'dfd', Array, Array)
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Home.php(23): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 01:04:19 --> Class 'App\Validation\UserValidate' not found
+#0 C:\xampp\htdocs\cisunmoontechtest\system\Validation\Validation.php(147): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Home.php(28): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 01:12:21 --> Class 'App\Validation\UserValidate' not found
+#0 C:\xampp\htdocs\cisunmoontechtest\system\Validation\Validation.php(147): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Home.php(28): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 01:13:35 --> Class 'App\Validation\UserValidate' not found
+#0 C:\xampp\htdocs\cisunmoontechtest\system\Validation\Validation.php(147): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Home.php(28): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 02:42:42 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-29 02:48:30 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-29 03:24:51 --> Undefined property: App\Controllers\Dashboard::$session
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->logout()
+#2 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 03:25:10 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(18): session_destroy()
+#2 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->logout()
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-29 03:25:13 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(18): session_destroy()
+#2 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->logout()
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-29 09:49:12 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(18): session_destroy()
+#2 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->logout()
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-29 11:35:57 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(13): view('dashboard/home')
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 11:37:08 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(13): view('dashboard/home')
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 12:45:50 --> Undefined property: App\Controllers\Dashboard::$input
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->songlist()
+#2 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 12:57:58 --> Undefined variable: model
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 12:57:58 --> Undefined variable: model
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 13:38:21 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(68): view('dashboard/updat...', Array)
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('5')
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 13:38:22 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(68): view('dashboard/updat...', Array)
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'css', 'bootstrap.min.c...')
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 13:38:22 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(68): view('dashboard/updat...', Array)
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'navbar-top-fixe...')
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 13:38:56 --> Undefined variable: user
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(68): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('5')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:38:57 --> Undefined variable: user
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(68): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'css', 'bootstrap.min.c...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:38:57 --> Undefined variable: user
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(68): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'navbar-top-fixe...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:39:09 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(68): view('dashboard/updat...', Array)
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('5')
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 13:39:09 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(68): view('dashboard/updat...', Array)
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'css', 'bootstrap.min.c...')
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 13:39:09 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#2 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(68): view('dashboard/updat...', Array)
+#3 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'navbar-top-fixe...')
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-29 13:40:14 --> Undefined variable: user
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('5')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:40:14 --> Undefined variable: user
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'css', 'bootstrap.min.c...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:40:14 --> Undefined variable: user
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'navbar-top-fixe...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:41:13 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'css', 'bootstrap.min.c...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:41:13 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'navbar-top-fixe...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:41:13 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'js', 'bootstrap.bundl...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:41:17 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'css', 'bootstrap.min.c...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:41:17 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'navbar-top-fixe...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:41:18 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'js', 'bootstrap.bundl...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:42:25 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'navbar-top-fixe...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:42:25 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'js', 'bootstrap.bundl...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:42:25 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'css', 'bootstrap.min.c...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 13:42:26 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php on line 13
+#0 C:\xampp\htdocs\cisunmoontechtest\app\Views\dashboard\update_form.php(13): set_value(NULL)
+#1 C:\xampp\htdocs\cisunmoontechtest\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cisunmoontechtest\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#3 C:\xampp\htdocs\cisunmoontechtest\app\Controllers\Dashboard.php(69): view('dashboard/updat...', Array)
+#4 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(918): App\Controllers\Dashboard->edit('assets', 'dist', 'js', 'bootstrap.bundl...')
+#5 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\cisunmoontechtest\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cisunmoontechtest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
