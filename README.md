@@ -1,3 +1,7 @@
+PLEASE UPDATE DocumentRoot LIKE ->  
+DocumentRoot "C:/xampp/htdocs/cisunmoontechtest/public"
+<Directory "C:/xampp/htdocs/cisunmoontechtest/public">
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
