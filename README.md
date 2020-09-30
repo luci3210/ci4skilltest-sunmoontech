@@ -1,6 +1,13 @@
-PLEASE UPDATE DocumentRoot LIKE ->  
-DocumentRoot "C:/xampp/htdocs/cisunmoontechtest/public"
-<Directory "C:/xampp/htdocs/cisunmoontechtest/public">
+~ Create Folder and name it with "yourfoldername" and put all source code inside it.
+
+~ if you are using localserver PLEASE OPEN Apache httpd.conf and UPDATE DocumentRoot and Directory LIKE ->  
+DocumentRoot "C:/xampp/htdocs/yourfoldername/public"
+<Directory "C:/xampp/htdocs/yourfoldername/public">
+
+~ uncomment extension=intl from your php.ini
+~ open the brwoser and enter localhost. 
+
+
 
 # CodeIgniter 4 Framework
 
