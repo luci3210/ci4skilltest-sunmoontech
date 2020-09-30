@@ -4,7 +4,11 @@
 DocumentRoot "C:/xampp/htdocs/yourfoldername/public"
 <Directory "C:/xampp/htdocs/yourfoldername/public">
 
+Save and restart apache
+
 ~ uncomment extension=intl from your php.ini
+Save and restart apache
+
 ~ open the brwoser and enter localhost. 
 
 
